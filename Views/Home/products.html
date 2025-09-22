@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürünler - Florist</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .product-card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .product-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+        }
+
+        .cart-button {
+            display: block;
+            width: 100%;
+            padding: 1.5rem;
+            margin-top: 1rem;
+            font-size: 1.25rem;
+            font-weight: 600;
+            text-align: center;
+            background-color: #e11d48;
+            color: white;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+            .cart-button:hover {
+                background-color: #be123c;
+            }
+    </style>
+</head>
+<body class="font-poppins bg-gray-50">
+    <!-- Header/Navigation -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-playfair font-bold text-rose-600">
+                    <a href="index.html">Florist</a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="text-gray-800 hover:text-rose-600 transition-colors">Ana Sayfa</a>
+                    <a href="products.html" class="text-rose-600">Ürünler</a>
+                    <a href="#occasions" class="text-gray-800 hover:text-rose-600 transition-colors">Fırsatlar</a>
+                    <a href="#about" class="text-gray-800 hover:text-rose-600 transition-colors">Hakkımızda</a>
+                </div>
+
+                <!-- Cart and Search -->
+                <div class="flex items-center space-x-6">
+                    <a href="#search" class="text-gray-800 hover:text-rose-600 transition-colors">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <a href="cart.html" class="text-gray-800 hover:text-rose-600 transition-colors relative">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="absolute -top-2 -right-2 bg-rose-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs cart-count">0</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 pt-24 pb-16">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://images.pexels.com/photos/931176/pexels-photo-931176.jpeg"
+                 alt="Rose Bouquet"
+                 class="w-full h-64 object-cover">
+            <div class="p-4">
+                <h3 class="font-playfair text-xl mb-2">Klasik Gül Buketi</h3>
+                <p class="text-gray-600 mb-4">₺799.99</p>
+                <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                    Sepete Ekle
+                </button>
+            </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://images.pexels.com/photos/931170/pexels-photo-931170.jpeg"
+                 alt="Lily Arrangement"
+                 class="w-full h-64 object-cover">
+            <div class="p-4">
+                <h3 class="font-playfair text-xl mb-2">Zarif Zambak Karışımı</h3>
+                <p class="text-gray-600 mb-4">₺599.99</p>
+                <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                    Sepete Ekle
+                </button>
+            </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://images.pexels.com/photos/931147/pexels-photo-931147.jpeg"
+                 alt="Tulip Bouquet"
+                 class="w-full h-64 object-cover">
+            <div class="p-4">
+                <h3 class="font-playfair text-xl mb-2">Bahar Laleri</h3>
+                <p class="text-gray-600 mb-4">₺699.99</p>
+                <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                    Sepete Ekle
+                </button>
+            </div>
+        </div>
+        <!-- Product 4 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <img src="https://images.pexels.com/photos/931159/pexels-photo-931159.jpeg"
+                 alt="Mixed Arrangement"
+                 class="w-full h-64 object-cover">
+            <div class="p-4">
+                <h3 class="font-playfair text-xl mb-2">Mevsim Karışımı</h3>
+                <p class="text-gray-600 mb-4">₺599.99</p>
+                <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                    Sepete Ekle
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-playfair text-xl mb-4">Florist</h3>
+                    <p class="text-gray-400">Her duruma uygun güzel çiçekler.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Linkler</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors">Hakkımızda</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors">SSS</a></li>
+                        <li><a href="#delivery" class="text-gray-400 hover:text-white transition-colors">Teslimat Bilgileri</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">İletişim Bilgileri</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><i class="fas fa-phone mr-2"></i> 216-346-1761-FLOWERS</li>
+                        <li><i class="fas fa-envelope mr-2"></i> info@florist.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-4">Bizi Takip Edin</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Florist. Haklarımız Saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="store.js"></script>
+    <script>
+        // Debug click coordinates
+        document.addEventListener('click', function(e) {
+            console.log('Click coordinates:', e.clientX, e.clientY);
+            console.log('Clicked element:', e.target);
+            console.log('Clicked element ID:', e.target.id);
+            console.log('Clicked element classes:', e.target.className);
+        });
+
+        // Render a single product card
+        function createProductCard(product) {
+            return `
+                <div class="bg-white rounded-lg shadow-md overflow-hidden product-card">
+                    <img src="${product.image}"
+                         alt="${product.name}"
+                         class="w-full h-64 object-cover">
+                    <div class="product-info p-6">
+                        <h3 class="font-playfair text-xl mb-2">${product.name}</h3>
+                        <p class="text-gray-600 mb-2">${formatPrice(product.price)}</p>
+                        <p class="text-sm text-gray-500 mb-4">${product.description}</p>
+                        <button id="addToCart_${product.id}"
+                                class="cart-button">
+                            Sepete Ekle
+                        </button>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('Page loaded, initializing products');
+            const productsGrid = document.getElementById('productsGrid');
+
+            // Clear existing content
+            productsGrid.innerHTML = '';
+
+            // Add each product to the grid
+            productsGrid.innerHTML = products.map(createProductCard).join('');
+
+            // Add click event listeners to all "Add to Cart" buttons
+            products.forEach(product => {
+                const button = document.getElementById(`addToCart_${product.id}`);
+                if (button) {
+                    console.log(`Adding click listener to button ${product.id}`);
+
+                    button.addEventListener('click', (e) => {
+                        console.log('Button clicked:', e.target.id);
+                        console.log('Adding product to cart:', product.id);
+                        if (addToCart(product.id)) {
+                            console.log('Product added successfully');
+                            button.textContent = 'Sepete Eklendi!';
+                            button.style.backgroundColor = '#16a34a';
+
+                            setTimeout(() => {
+                                button.textContent = 'Sepete Eklendi';
+                                button.style.backgroundColor = '#e11d48';
+                            }, 1500);
+                        }
+                    });
+                }
+            });
+
+            // Update cart count
+            updateCartCount();
+        });
+    </script>
+</body>
+</html>

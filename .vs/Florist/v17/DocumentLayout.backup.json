@@ -1,0 +1,365 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\views\\home\\occasion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:views\\home\\occasion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\views\\home\\urunler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:views\\home\\urunler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:views\\shared\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\entity\\urun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:entity\\urun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\wwwroot\\css\\occasion.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:wwwroot\\css\\occasion.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\wwwroot\\js\\logincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:wwwroot\\js\\logincontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\wwwroot\\css\\hakkimizda.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:wwwroot\\css\\hakkimizda.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\views\\home\\hakkimizda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:views\\home\\hakkimizda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\wwwroot\\css\\urunler.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:wwwroot\\css\\urunler.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|c:\\users\\zehra\\desktop\\floristt\\floristt\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64BD4468-1CB6-420B-9718-91F0E7F28D89}|Florist.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Urun.cs",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Entity\\Urun.cs",
+              "RelativeDocumentMoniker": "Entity\\Urun.cs",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Entity\\Urun.cs",
+              "RelativeToolTip": "Entity\\Urun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:57:59.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "occasion.css",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\css\\occasion.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\occasion.css",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\css\\occasion.css",
+              "RelativeToolTip": "wwwroot\\css\\occasion.css",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAwwKAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-22T01:15:17.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "logIn.css",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\css\\logIn.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\logIn.css",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\css\\logIn.css",
+              "RelativeToolTip": "wwwroot\\css\\logIn.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-22T00:47:46.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T23:59:48.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEAAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T23:53:54.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "logIn.js",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\js\\logIn.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\logIn.js",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\js\\logIn.js",
+              "RelativeToolTip": "wwwroot\\js\\logIn.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-21T23:52:07.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "logIncontrol.cs",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\js\\logIncontrol.cs",
+              "RelativeDocumentMoniker": "wwwroot\\js\\logIncontrol.cs",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\js\\logIncontrol.cs",
+              "RelativeToolTip": "wwwroot\\js\\logIncontrol.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T23:51:37.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-21T21:30:24.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Urunler.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Home\\Urunler.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Urunler.cshtml",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Home\\Urunler.cshtml",
+              "RelativeToolTip": "Views\\Home\\Urunler.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAB8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T21:05:37.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "occasion.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Home\\occasion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\occasion.cshtml",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Home\\occasion.cshtml",
+              "RelativeToolTip": "Views\\Home\\occasion.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwGQBAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T20:59:45.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "favicon.ico - Icon [32x32, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, PNG]",
+              "RelativeToolTip": "wwwroot\\favicon.ico - Icon [32x32, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2025-06-01T01:14:21.679Z",
+              "EditorCaption": " - Icon [32x32, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T11:53:07.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Shared\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Shared\\Index.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T11:53:20.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "hakkimizda.css",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\css\\hakkimizda.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\hakkimizda.css",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\css\\hakkimizda.css",
+              "RelativeToolTip": "wwwroot\\css\\hakkimizda.css",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAACYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-21T20:51:38.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Home\\checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\checkout.cshtml",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Home\\checkout.cshtml",
+              "RelativeToolTip": "Views\\Home\\checkout.cshtml",
+              "ViewState": "AgIAALgAAAAAAAAAAAAQwOcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T20:40:09.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T20:14:17.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "hakkimizda.cshtml",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Home\\hakkimizda.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\hakkimizda.cshtml",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Views\\Home\\hakkimizda.cshtml",
+              "RelativeToolTip": "Views\\Home\\hakkimizda.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T19:57:57.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Urunler.css",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\css\\Urunler.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Urunler.css",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\css\\Urunler.css",
+              "RelativeToolTip": "wwwroot\\css\\Urunler.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwEEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-21T19:57:15.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T19:50:04.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\ZEHRA\\Desktop\\Floristt\\Floristt\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAAPAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-05-21T19:49:56.068Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+﻿
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Cart";
+}
+
+@section Styles {
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+}
+<body class="font-poppins"> </body>
+
+<main class="container mx-auto px-4 pt-24 pb-16 font-poppins bg-gray-50">
+    <div class="text-center py-8">
+        <h1 class="font-playfair text-4xl font-bold text-gray-800 mb-4">Alışveriş Sepeti</h1>
+        <p class="text-gray-600">Ürünlerini Görüntüle ve Seç</p>
+    </div>
+
+    <div class="flex flex-col lg:flex-row gap-8">
+        <div class="lg:w-2/3">
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <div id="cartItems" class="space-y-6">
+                    <!-- JS ile yüklenir -->
+                </div>
+                <div id="emptyCartMessage" class="text-center py-8 hidden">
+                    <i class="fas fa-shopping-cart text-4xl text-gray-300 mb-4"></i>
+                    <p class="text-gray-500 mb-4">Sepetin Boş.</p>
+                    <a href="/products" class="bg-rose-600 text-white px-6 py-2 rounded hover:bg-rose-700 transition-colors inline-block">
+                        Alışverişe Devam Et
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="lg:w-1/3">
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <h2 class="font-playfair text-2xl font-bold mb-6">Sipariş Özeti</h2>
+                <div class="space-y-4">
+                    <div class="flex justify-between">
+                        <span class="text-gray-600">Ara Toplam</span>
+                        <span id="subtotal" class="font-semibold">0.00₺</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-600">Kargo</span>
+                        <span id="shipping" class="font-semibold">0.00₺</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="text-gray-600">Vergi (10%)</span>
+                        <span id="tax" class="font-semibold">0.00₺</span>
+                    </div>
+                    <div class="border-t pt-4">
+                        <div class="flex justify-between">
+                            <span class="font-bold">Toplam</span>
+                            <span id="total" class="font-bold">0.00₺</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-6">
+                    <label class="block text-sm font-medium text-gray-700 mb-2">İndirim Kodu</label>
+                    <div class="flex space-x-2">
+                        <input type="text" id="promoCode" class="flex-1 border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-rose-500" placeholder="Enter code">
+                        <button onclick="applyPromoCode()" class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition-colors">Uygula</button>
+                    </div>
+                </div>
+
+                <button onclick="proceedToCheckout()" class="w-full bg-rose-600 text-white py-3 rounded-lg mt-6 hover:bg-rose-700 transition-colors">
+                    Sepeti Onayla
+                </button>
+            </div>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+
+
+    <script>
+        let promoDiscount = 0;
+
+        function renderCartItem(item) {
+            return `
+                <div class="flex items-center border-b pb-4">
+                    <img src="${item.image}" alt="${item.name}" class="w-24 h-24 object-cover rounded">
+                    <div class="flex-1 ml-4">
+                        <h3 class="font-playfair text-lg">${item.name}</h3>
+                        <p class="text-gray-600">${formatPrice(item.price)}</p>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <button onclick="handleUpdateQuantity(${item.id}, ${item.quantity - 1})" class="text-gray-500 hover:text-gray-700">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <span class="w-8 text-center">${item.quantity}</span>
+                        <button onclick="handleUpdateQuantity(${item.id}, ${item.quantity + 1})" class="text-gray-500 hover:text-gray-700">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button onclick="handleRemoveItem(${item.id})" class="ml-4 text-rose-600 hover:text-rose-700">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div>
+                </div>
+            `;
+        }
+
+        function handleUpdateQuantity(productId, newQuantity) {
+            updateQuantity(productId, newQuantity);
+            renderCart();
+        }
+
+        function handleRemoveItem(productId) {
+            removeFromCart(productId);
+            renderCart();
+        }
+
+        function renderCart() {
+            const cart = getCart();
+            const cartItems = document.getElementById('cartItems');
+            const emptyCartMessage = document.getElementById('emptyCartMessage');
+
+            if (cart.length === 0) {
+                cartItems.innerHTML = '';
+                emptyCartMessage.classList.remove('hidden');
+            } else {
+                emptyCartMessage.classList.add('hidden');
+                cartItems.innerHTML = cart.map(renderCartItem).join('');
+            }
+
+            updateCartCount();
+            updateOrderSummary();
+        }
+
+        function updateOrderSummary() {
+            const totals = calculateTotals();
+            document.getElementById('subtotal').textContent = totals.subtotal;
+            document.getElementById('shipping').textContent = totals.shipping;
+            document.getElementById('tax').textContent = totals.tax;
+            document.getElementById('total').textContent = totals.total;
+        }
+
+        function applyPromoCode() {
+            const promoCode = document.getElementById('promoCode').value.toUpperCase();
+            const cart = getCart();
+            const subtotal = cart.reduce((total, item) => total + (item.price * item.quantity), 0);
+
+            const promoCodes = {
+                'WELCOME10': 0.10,
+                'SPRING20': 0.20,
+                'SUMMER15': 0.15
+            };
+
+            if (promoCodes[promoCode]) {
+                promoDiscount = subtotal * promoCodes[promoCode];
+                alert(`Promo code applied! You saved ${formatPrice(promoDiscount)}`);
+                updateOrderSummary();
+            } else {
+                alert('Invalid promo code');
+            }
+        }
+
+        function proceedToCheckout() {
+            const cart = getCart();
+            if (cart.length === 0) {
+                alert('Your cart is empty');
+                return;
+            }
+            window.location.href = '/Home/Checkout';
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            renderCart();
+        });
+    </script>
+    <script src="~/js/store.js" asp-append-version="true"></script>
+}
+
+

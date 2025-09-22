@@ -1,0 +1,161 @@
+﻿body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffafb;
+    margin: 0;
+    padding: 0;
+    color: #111827;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: white;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-weight: 500;
+    color: #1f2937;
+}
+
+.navbar .logo {
+    color: #e11d48;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 8%;
+    background-color: #fff1f4;
+}
+
+.hero .text {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.hero p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #6b7280;
+}
+
+.hero button {
+    margin-top: 1.5rem;
+    background-color: #e11d48;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 999px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+    .hero button:hover {
+        background-color: #be123c;
+    }
+
+why-us {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 3rem 5%;
+    background-color: white;
+}
+
+.why-us .item {
+    text-align: center;
+    max-width: 200px;
+}
+
+    .why-us .item i,
+    .why-us .item svg {
+        font-size: 2rem;
+        color: #e11d48;
+    }
+
+.why-us h4 {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.why-us p {
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+footer {
+    background-color: #0f172a;
+    color: white;
+    padding: 2rem 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer .section {
+    margin-bottom: 1.5rem;
+}
+
+.footer h4 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer a {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #e5e7eb;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.ribbon {
+    width: 150px;
+    background: crimson;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    left: -40px;
+    transform: rotate(-45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 5px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}

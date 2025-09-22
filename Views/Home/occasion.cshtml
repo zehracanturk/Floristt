@@ -1,0 +1,361 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@{
+    ViewData["Title"] = "Occasion";
+}
+@{
+    Layout = "_Layout";
+}
+<link rel="stylesheet" href="/css/occasion.css" />
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fırsatlar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/occasion.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+    <div class="font-poppins"> </div>
+    <section class="py-16 bg-white text-center">
+        <h2 class="text-4xl font-playfair font-bold text-center mt-8 mb-8 ">FIRSATLAR</h2>
+
+        <div class="flex flex-wrap justify-center gap-8 px-4">
+            <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden max-w-xs shadow-md transform transition duration-300 hover:scale-105 hover:shadow-lg">
+                <img src="https://images.pexels.com/photos/30666911/pexels-photo-30666911/free-photo-of-pembe-soz.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Anneler Günü İndirimi" class="w-full h-auto">
+                <div class="ribbon">%45 İndirim</div>
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">Anneler Günü İndirimi</h3>
+                </div>
+            </div>
+
+            <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden max-w-xs shadow-md transform transition duration-300 hover:scale-105 hover:shadow-lg">
+                <img src="https://images.pexels.com/photos/30666781/pexels-photo-30666781/free-photo-of-sevgi-dolu.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Sevgililer Günü Paketi" class="w-full h-auto">
+                <div class="ribbon">%30 İndirim</div>
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">Sevgililer Günü Paketi</h3>
+                </div>
+            </div>
+
+            <div class="bg-white border border-gray-200 rounded-2xl overflow-hidden max-w-xs shadow-md transform transition duration-300 hover:scale-105 hover:shadow-lg">
+                <img src="https://images.pexels.com/photos/30969350/pexels-photo-30969350/free-photo-of-fener-ve-cikolatalarla-sik-buket-sergileme.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Yeni Ürün İndirimi" class="w-full h-auto">
+                 <div class="ribbon">%65 İndirim</div>
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">Yılbaşı İndirimi</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="font-playfair text-3xl font-bold text-center mb-12">Flaş Ürünler</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/8723311/pexels-photo-8723311.jpeg"
+                         alt="Rose Bouquet"
+                         class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-playfair text-xl mb-2">Sessiz Aşk</h3>
+                        <div class="mb-4">
+                            <span class="text-gray-400 line-through mr-2">₺799.99</span>
+                            <span class="text-rose-600 font-bold text-lg">₺474.99</span>
+                        </div>
+                        <p class="text-xs text-orange-600 mb-2">📉 Son 30 Günün En Düşük Fiyatı!</p>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Sevdayla birleşen masmavi umutlar... Bu buket, sonsuzluğa atılan ilk adım.
+                        </p>
+                        <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                            Sepete Ekle
+                        </button>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/30280728/pexels-photo-30280728/free-photo-of-sik-hediye-cantasinda-zarif-mor-gul-buketi.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                         alt="Lily Arrangement"
+                         class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-playfair text-xl mb-2">Mor Rüya</h3>
+                        <div class="mb-4">
+                            <span class="text-gray-400 line-through mr-2">₺799.99</span>
+                            <span class="text-rose-600 font-bold text-lg">₺474.99</span>
+                        </div>
+                        <p class="text-xs text-orange-600 mb-2">📉 Son 30 Günün En Düşük Fiyatı!</p>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Nazlı Bir Aşk
+                            Lilanın zarafetiyle süzülen ince bir his… Sessizce “seni düşünüyorum” diyen bir buket.
+                        </p>
+                        <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                            Sepete Ekle
+                        </button>
+                    </div>
+                </div>
+                <!--Product 3-->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/30319661/pexels-photo-30319661/free-photo-of-mavi-sarma-icinde-canli-gul-buketi.jpeg"
+                         alt="Lily Arrangement"
+                         class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-playfair text-xl mb-2">Güllerin Hikayesi</h3>
+                        <div class="mb-4">
+                            <span class="text-gray-400 line-through mr-2">₺799.99</span>
+                            <span class="text-rose-600 font-bold text-lg">₺474.99</span>
+                        </div>
+                        <p class="text-xs text-orange-600 mb-2">📉 Son 30 Günün En Düşük Fiyatı!</p>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Renk Renk Aşk
+                            Her bir gül ayrı bir his… Neşesiyle, tutkusu ve huzuruyla kalbimden sana bir buket sevda.
+                        </p>
+                        <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                            Sepete Ekle
+                        </button>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/931147/pexels-photo-931147.jpeg"
+                         alt="Tulip Bouquet"
+                         class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-playfair text-xl mb-2">Bahar Laleri</h3>
+                        <div class="mb-4">
+                            <span class="text-gray-400 line-through mr-2">₺799.99</span>
+                            <span class="text-rose-600 font-bold text-lg">₺474.99</span>
+                        </div>
+                        <p class="text-xs text-orange-600 mb-2">📉 Son 30 Günün En Düşük Fiyatı!</p>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Turuncu, kahverengi ve altın tonlarıyla sarıp sarmalayan sıcacık bir buket.
+                        </p>
+                        <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                            Sepete Ekle
+                        </button>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/31368777/pexels-photo-31368777/free-photo-of-sik-sarma-ile-canli-turuncu-gul-buketi.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                         alt="SunFlower bouquet"
+                         class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-playfair text-xl mb-2">Sıcak Dokunuş</h3>
+                        <div class="mb-4">
+                            <span class="text-gray-400 line-through mr-2">₺799.99</span>
+                            <span class="text-rose-600 font-bold text-lg">₺474.99</span>
+                        </div>
+                        <p class="text-xs text-orange-600 mb-2">📉 Son 30 Günün En Düşük Fiyatı!</p>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Tutkunun Çiçeği
+                            Güneş gibi sıcak, bakışın gibi büyüleyici… Turuncu güllerle aşkın en cesur hali.
+                        </p>
+                        <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                            Sepete Ekle
+                        </button>
+                    </div>
+                </div> <!-- Product 6 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/7785380/pexels-photo-7785380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                         alt="Rose Bouquet"
+                         class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-playfair text-xl mb-2">Baharın Ahengi</h3>
+                        <!--<div class="ribbon">%65 İndirim</div>  -->
+                        <div class="mb-4">
+                            <span class="text-gray-400 line-through mr-2">₺799.99</span>
+                            <span class="text-rose-600 font-bold text-lg">₺474.99</span>
+                        </div>
+                        <p class="text-xs text-orange-600 mb-2">📉 Son 30 Günün En Düşük Fiyatı!</p>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Aşkın Renkleri
+                            Her çiçekten bir his, her renkten bir dokunuş… Kalbim sana rengârenk anlatıyor sevgimi.
+                        </p>
+                        <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                            Sepete Ekle
+                        </button>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/8305330/pexels-photo-8305330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                         alt="Rose Bouquet"
+                         class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-playfair text-xl mb-2">Saflığın sesi</h3>
+                        <!-- <div class="ribbon">%65 İndirim</div>-->
+                        <div class="mb-4">
+                            <span class="text-gray-400 line-through mr-2">₺799.99</span>
+                            <span class="text-rose-600 font-bold text-lg">₺474.99</span>
+                        </div>
+                        <p class="text-xs text-orange-600 mb-2">📉 Son 30 Günün En Düşük Fiyatı!</p>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Saf Aşkın Sesi
+                            Beyaz güllerle kalbim sana fısıldıyor… Temiz, zarif ve sonsuz bir sevgiyle.
+                        </p>
+                        <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                            Sepete Ekle
+                        </button>
+                    </div>
+                </div> <!-- Product 8 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/5837408/pexels-photo-5837408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                         alt="Rose Bouquet"
+                         class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-playfair text-xl mb-2">Mavi Düş</h3>
+                       <!-- <div class="ribbon">%65 İndirim</div> -->
+                        <div class="mb-4">
+                            <span class="text-gray-400 line-through mr-2">₺799.99</span>
+                            <span class="text-rose-600 font-bold text-lg">₺474.99</span>
+                        </div>
+                        <p class="text-xs text-orange-600 mb-2">📉 Son 30 Günün En Düşük Fiyatı!</p>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Mavi güllerle sessiz ama derin bir sevda… Hayaller kadar huzurlu, kalbin kadar özel.
+                        </p>
+                        <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                            Sepete Ekle
+                        </button>
+
+
+
+                    </div>
+                </div>
+                <!-- Product 9 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/15945651/pexels-photo-15945651/free-photo-of-kadin-cicekler-buket-tutmak.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                         alt="Rose Bouquet"
+                         class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-playfair text-xl mb-2">Bir Buket Aşk</h3>
+                        <div class="mb-4">
+                            <span class="text-gray-400 line-through mr-2">₺799.99</span>
+                            <span class="text-rose-600 font-bold text-lg">₺474.99</span>
+                        </div>
+                        <p class="text-xs text-orange-600 mb-2">📉 Son 30 Günün En Düşük Fiyatı!</p>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Sen Gülümsediğinde
+                            Şefkatin ve sevginin en narin hali… Her biri senin gibi, içten ve güzel.
+                        </p>
+                        <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                            Sepete Ekle
+                        </button>
+                    </div>
+                </div>  
+                <!-- Product 10 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/15290978/pexels-photo-15290978/free-photo-of-cicekler-tac-yapraklar-renkli-rengarenk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                         alt="Rose Bouquet"
+                         class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-playfair text-xl mb-2">Leylak Rüyası</h3>
+                        <div class="mb-4">
+                            <span class="text-gray-400 line-through mr-2">₺799.99</span>
+                            <span class="text-rose-600 font-bold text-lg">₺474.99</span>
+                        </div>
+                        <p class="text-xs text-orange-600 mb-2">📉 Son 30 Günün En Düşük Fiyatı!</p>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Morun tutkusu, pembenin zarafetiyle buluştu… Her dem taze kalan duygular için romantik bir çiçek dokunuşu.
+                        </p>
+                        <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                            Sepete Ekle
+                        </button>
+                    </div>
+                </div>
+                <!-- Product 11 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/19882188/pexels-photo-19882188/free-photo-of-cicekler-hediye-armagan-buket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                         alt="SunFlower bouquet"
+                         class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-playfair text-xl mb-2">Sonbahar Buketi</h3>
+                        <div class="mb-4">
+                            <span class="text-gray-400 line-through mr-2">₺799.99</span>
+                            <span class="text-rose-600 font-bold text-lg">₺474.99</span>
+                        </div>
+                        <p class="text-xs text-orange-600 mb-2">📉 Son 30 Günün En Düşük Fiyatı!</p>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Birlikte Sararıp Solmadan
+                            Sonbahar gibi huzurlu, sevda gibi derin... Bu buket mevsimden ilham aldı.
+                        </p>
+                        <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                            Sepete Ekle
+                        </button>
+                    </div>
+                </div>
+                <!-- Product 12 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                    <img src="https://images.pexels.com/photos/30757643/pexels-photo-30757643.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                         alt="SunFlower bouquet"
+                         class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-playfair text-xl mb-2">Bir Sepet Aşk</h3>
+                        <div class="mb-4">
+                            <span class="text-gray-400 line-through mr-2">₺799.99</span>
+                            <span class="text-rose-600 font-bold text-lg">₺474.99</span>
+                        </div>
+                        <p class="text-xs text-orange-600 mb-2">📉 Son 30 Günün En Düşük Fiyatı!</p>
+                        <p class="text-gray-600 text-sm mb-4">
+                              Her çiçeği sevgiyle seçildi, her rengi kalbimden geldi… Bu sepet, sadece sana özel.
+                        </p>
+                        <button class="w-full bg-rose-600 text-white py-2 rounded hover:bg-rose-700 transition-colors">
+                            Sepete Ekle
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <!-- Why Choose Us -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="font-playfair text-3xl font-bold text-center mb-12">Neden Bizi Seçmelisiniz?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div>
+                    <i class="fas fa-truck text-4xl text-rose-600 mb-4"></i>
+                    <h3 class="font-playfair text-xl mb-2">Aynı Gün Teslimat</h3>
+                    <p class="text-gray-600">Aynı gün teslimat için saat 14:00'e kadar sipariş verin</p>
+                </div>
+                <div>
+                    <i class="fas fa-heart text-4xl text-rose-600 mb-4"></i>
+                    <h3 class="font-playfair text-xl mb-2">Tazelik Garantisi</h3>
+                    <p class="text-gray-600">7 güne kadar tazelik garantisi</p>
+                </div>
+                <div>
+                    <i class="fas fa-gift text-4xl text-rose-600 mb-4"></i>
+                    <h3 class="font-playfair text-xl mb-2">Uzman Çiçekçiler</h3>
+                    <p class="text-gray-600">Yerel uzmanlar tarafından el işçiliğiyle üretildi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>

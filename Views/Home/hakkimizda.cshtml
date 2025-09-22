@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Hakkimizda";
+    Layout = "_Layout";
+
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@ViewData["Title"]</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="~/css/hakkimizda.css" />
+   
+    <style>
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-poppins bg-gray-50">
+   
+
+    <main>
+        <section class="about-us pt-20">
+            <h2>Biz Kimiz?</h2>
+
+            <div class="about-us-images">
+                <img src="~/images/zehrafoto.jpg" alt="Ortak 1" class="team-photo" />
+                <img src="~/images/ebrarfoto.jpg" alt="Ortak 2" class="team-photo" />
+            </div>
+            <p>
+
+                İki yakın arkadaş olarak, çiçeklerin büyülü dünyasında bir yolculuğa çıkmaya karar verdik. Her ikimiz de uzun zamandır doğanın ve çiçeklerin insan ruhunu nasıl canlandırdığını keşfetmekle ilgileniyorduk. Bir gün, bu sevgimizi ve tutkumuzu bir araya getirip, kendi çiçekçi dükkanımızı açma fikri doğdu.
+
+                Florist Çiçekçi Dükkanımızda, sadece bir çiçek değil, her bir duyguyu, anı ve hatırayı taşıyan güzellikler sunuyoruz. Her çiçek, sevgimizi, mutluluğumuzu ve neşemizi yansıtırken, biz de bu özel duyguları sizinle paylaşmak istiyoruz. Amacımız, taze ve kaliteli çiçeklerle hayatınıza renk katmak ve her anınıza anlam katabilmektir. Bizim için her çiçek, bir hikaye anlatır ve biz bu hikayeyi birlikte yazmak için buradayız.
+
+                Sevgiyle büyüyen bir çiçek gibi, işimizi de birlikte büyütüyor ve her geçen gün daha fazla insana güzellikler sunmayı hedefliyoruz. Her çiçeğimizin ardında, iki dostun ortak bir hayalini ve cesaretini görebilirsiniz.
+            </p>
+
+            <h2>Vizyonumuz</h2>
+            <p>Vizyonumuz, her müşteri için en kaliteli ve en taze çiçekleri sunarak hayatlarınıza renk katmak. Çiçeklerin büyülü dünyasını, her anınıza dahil etmek için buradayız.</p>
+
+            <h2>Değerlerimiz</h2>
+            <ul>
+                <li><strong>Yaratıcılık:</strong> Her çiçek aranjmanımızda özgünlük ve zarafet bulunur.</li>
+                <li><strong>Kalite:</strong> En taze ve kaliteli çiçekleri seçiyoruz.</li>
+                <li><strong>Samimiyet:</strong> Müşterilerimizle her zaman içten ve sıcak ilişkiler kurarız.</li>
+            </ul>
+        </section>
+
+        <section class="neden-secmelisiniz pt-20">
+            <h2>Neden Bizi Seçmelisiniz?</h2>
+            <div class="neden-kutulari">
+                <div class="neden-kutu">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Taze Çiçekler</h3>
+                    <p>Her zaman en taze ve en güzel çiçekleri sunuyoruz.</p>
+                </div>
+                <div class="neden-kutu">
+                    <i class="fas fa-gift"></i>
+                    <h3>Özel Tasarımlar</h3>
+                    <p>Her zevke uygun, kişiye özel aranjmanlar hazırlıyoruz.</p>
+                </div>
+                <div class="neden-kutu">
+                    <i class="fas fa-truck"></i>
+                    <h3>Hızlı Teslimat</h3>
+                    <p>Çiçeklerinizi zamanında ve güvenle teslim ediyoruz.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
+
