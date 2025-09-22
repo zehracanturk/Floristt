@@ -26,3 +26,26 @@ Visual Studio (Geliştirme ortamı) SQL Server Management Studio (Veri tabanı y
 ![WhatsApp Görsel 2025-09-22 saat 17 23 03_3a716b2b](https://github.com/user-attachments/assets/fad8062d-9533-478b-82ca-624f060613fa)
 ![WhatsApp Görsel 2025-09-22 saat 17 23 04_c332a487](https://github.com/user-attachments/assets/82b911a0-32af-4b5d-b16a-2767e49977d6)
 ![WhatsApp Görsel 2025-09-22 saat 17 23 04_7ba439c2](https://github.com/user-attachments/assets/7c9782e1-67b4-4052-a6ca-b71e5f899d33)
+
+VERİTABANI
+
+
+![WhatsApp Görsel 2025-09-22 saat 18 50 41_dc8a0e91](https://github.com/user-attachments/assets/c069dc46-80cc-48d9-8d56-db543be1e0af)
+
+
+![WhatsApp Görsel 2025-09-22 saat 18 48 10_b188eb8f](https://github.com/user-attachments/assets/0dfb4309-ecd1-4f98-ac68-831456dccd83)
+
+
+![WhatsApp Görsel 2025-09-22 saat 18 55 07_415575a2](https://github.com/user-attachments/assets/2a42e3af-5c57-42b0-91a8-c5510c49f84a)
+
+
+![WhatsApp Görsel 2025-09-22 saat 18 55 07_38657ae3](https://github.com/user-attachments/assets/82ba71c7-2290-4161-b8da-89086b8009b9)
+
+
+![WhatsApp Görsel 2025-09-22 saat 18 48 21_86494574](https://github.com/user-attachments/assets/81b7f715-8a7f-4abe-b032-a5165431534f)
+
+
+![WhatsApp Görsel 2025-09-22 saat 18 55 07_127ed418](https://github.com/user-attachments/assets/6198091a-287a-44dc-9216-967b752c3bad)
+
+
+![WhatsApp Görsel 2025-09-22 saat 18 48 21_27640576](https://github.com/user-attachments/assets/e3485474-73f4-4476-92e0-6b16d2485a60)
