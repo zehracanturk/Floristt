@@ -9,29 +9,43 @@ KULLANILAN ARAÇLAR:
 Visual Studio (Geliştirme ortamı) SQL Server Management Studio (Veri tabanı yönetimi)
 
 ![WhatsApp Görsel 2025-09-22 saat 17 23 03_73d2c307](https://github.com/user-attachments/assets/42655a05-f863-4fa7-8d58-b15b2adcf0d0)
+
 ![WhatsApp Görsel 2025-09-22 saat 17 23 04_c332a487](https://github.com/user-attachments/assets/82b911a0-32af-4b5d-b16a-2767e49977d6)
+
 ![WhatsApp Görsel 2025-09-22 saat 17 23 02_42e7124b](https://github.com/user-attachments/assets/9a118651-4787-4b98-bdba-84b68c986c70)
 
 ![WhatsApp Görsel 2025-09-22 saat 17 23 06_aa407818](https://github.com/user-attachments/assets/d45fe312-e9c8-4d92-a397-64b4d8b66dcb)
+
 ![WhatsApp Görsel 2025-09-22 saat 17 23 08_75474d0b](https://github.com/user-attachments/assets/425a565a-937b-4989-a472-2405d539f8c3)
+
 ![WhatsApp Görsel 2025-09-22 saat 17 23 07_efb18bdd](https://github.com/user-attachments/assets/08e26cd4-699a-4ecc-9c8e-acdd140c7fdf)
+
 ![WhatsApp Görsel 2025-09-22 saat 17 23 04_818201d9](https://github.com/user-attachments/assets/e91d9a29-cccb-4f0a-b68c-1613aaa6daaf)
-![WhatsApp Görsel 2025-09-22 saat 17 23 06_a2a19f32](https://github.com/user-attachments/assets/5c558f65-6285-45c5-8b9a-510831c7acc8)
 
-![WhatsApp Görsel 2025-09-22 saat 17 23 05_dd734e45](https://github.com/user-attachments/assets/6db881bd-1796-4682-8c7c-35d101bb0169)
-![WhatsApp Görsel 2025-09-22 saat 17 23 05_25c8771c](https://github.com/user-attachments/assets/90c69e3b-c82a-4d06-84c0-8dd007a6e59b)
+![WhatsApp Görsel 2025-09-22 saat 17 23 06_85bf7656](https://github.com/user-attachments/assets/a41cce32-86cf-4cd3-832b-85dcd4acd9c1)
 
-![WhatsApp Görsel 2025-09-22 saat 17 23 03_b0e8b479](https://github.com/user-attachments/assets/20869f82-59fb-424a-8258-11a923533873)
+![WhatsApp Görsel 2025-09-22 saat 17 23 05_eea4ee49](https://github.com/user-attachments/assets/4d47dcd6-9265-44b3-8d99-6d4569040039)
 
-![WhatsApp Görsel 2025-09-22 saat 17 23 05_c110814b](https://github.com/user-attachments/assets/cf6688b7-e1b5-4beb-8d1f-d0453e960e8b)
-![WhatsApp Görsel 2025-09-22 saat 17 23 07_3afb9820](https://github.com/user-attachments/assets/b0cebae1-7625-440f-b5bf-8f907fffefe5)
-![WhatsApp Görsel 2025-09-22 saat 17 23 07_228bcdfa](https://github.com/user-attachments/assets/7a592680-f535-4d40-8e67-49272ca30b26)
-![WhatsApp Görsel 2025-09-22 saat 17 23 02_0f2375a1](https://github.com/user-attachments/assets/cc1adb58-e12a-494d-96b0-7392a46a0b39)
-![WhatsApp Görsel 2025-09-22 saat 17 23 04_1397a55c](https://github.com/user-attachments/assets/e55535a5-b7c3-4389-89fe-727e1b9e5d82)
-![WhatsApp Görsel 2025-09-22 saat 18 40 08_9d438e91](https://github.com/user-attachments/assets/72ace0fb-d138-44c8-89e4-5f5bfaa529b1)
-![WhatsApp Görsel 2025-09-22 saat 17 23 03_3a716b2b](https://github.com/user-attachments/assets/fad8062d-9533-478b-82ca-624f060613fa)
+![WhatsApp Görsel 2025-09-22 saat 17 23 07_d24c54c6](https://github.com/user-attachments/assets/c308e795-477f-4de7-9001-e4c9e796c005)
 
-![WhatsApp Görsel 2025-09-22 saat 17 23 04_7ba439c2](https://github.com/user-attachments/assets/7c9782e1-67b4-4052-a6ca-b71e5f899d33)
+![WhatsApp Görsel 2025-09-22 saat 17 23 05_c7c99128](https://github.com/user-attachments/assets/39f08f03-e08a-43cb-b6a9-2d2becba6b43)
+
+![WhatsApp Görsel 2025-09-22 saat 17 23 04_66259734](https://github.com/user-attachments/assets/e99a12d3-490c-4f4b-844f-0a17da0bea2c)
+
+![WhatsApp Görsel 2025-09-22 saat 17 23 07_edf759f5](https://github.com/user-attachments/assets/53b12839-4170-4086-a2e1-6fc17a68b4c5)
+
+![WhatsApp Görsel 2025-09-22 saat 17 23 05_60480b50](https://github.com/user-attachments/assets/17ca791d-d0e6-40d9-ac72-89c933faee5d)
+
+![WhatsApp Görsel 2025-09-22 saat 17 23 08_6c0d453c](https://github.com/user-attachments/assets/99b3e50c-03f4-4952-b3a8-fdededa31d15)
+
+![WhatsApp Görsel 2025-09-22 saat 17 23 03_3e69aa0f](https://github.com/user-attachments/assets/8176a0da-b11d-471b-aa83-9a151e5e79fc)
+
+![WhatsApp Görsel 2025-09-22 saat 17 23 02_5cc0a321](https://github.com/user-attachments/assets/ec762b28-c51d-4179-bdea-ff4e4912217b)
+
+![WhatsApp Görsel 2025-09-22 saat 17 23 04_7f27cd05](https://github.com/user-attachments/assets/61406033-cf69-4ae7-acd7-46f3e9ffa95e)
+
+![WhatsApp Görsel 2025-09-22 saat 18 40 08_da60a3fb](https://github.com/user-attachments/assets/85ba846d-f56e-46dd-a5e2-a730b1806d88)
+
 
 VERİTABANI
 
